@@ -2,10 +2,10 @@
 - SEI - Software Engineering Project 3 
 - Created By: Eric Pettaway
   
-###Python
+### Python
 I am recreating the classic game "Snake" using Python (get it?).  I plan to use python for the backend and HTML for the front end.
 
-###MVP
+### MVP
 
 - Welcome page explaining the rules of the game as well as the controls.
 
@@ -13,7 +13,7 @@ I am recreating the classic game "Snake" using Python (get it?).  I plan to use 
 
 - High score page to view high scores.
 
-###Stretch Goals
+### Stretch Goals
 
 - User can customize controls
 
@@ -25,17 +25,17 @@ I am recreating the classic game "Snake" using Python (get it?).  I plan to use 
 
 - Add ability to customize game board
 
-###Front-End
+### Front-End
 
 - HTML
 
 - CSS
 
-###Back-End
+### Back-End
 
 - Python
 
-###User Stories
+### User Stories
 
 - As a user I want to be able to view the rules and controls of the game.
 
@@ -43,4 +43,6 @@ I am recreating the classic game "Snake" using Python (get it?).  I plan to use 
 
 - As a user I want to be able to view high scores.
 
-###Wireframes
+### Wireframes
+
+-Will upload soon
