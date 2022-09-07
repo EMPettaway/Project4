@@ -31,6 +31,8 @@ I am recreating the classic game "Snake" using Python (get it?).  I plan to use 
 
 - CSS
 
+-JavaScript
+
 ### Back-End
 
 - Python
