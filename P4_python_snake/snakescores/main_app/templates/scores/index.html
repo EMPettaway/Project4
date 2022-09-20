@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<h1>High Scores</h1>
+
+{% for scores in highscores %}
+  <div class="card">
+
+    {% comment %} <a href="/scores/{{ scores.id }}"> {% endcomment %}
+    <a href="{% url 'detail' scores.id %}">
+
+    <div class="card-content">
+      <span class="card-title">{{ scores.username }}</span>
+      <p>highscores: {{ scores.highscore }}</p>
+    </div>
+  </div>
+{% endfor %}
+
+{% endblock %}

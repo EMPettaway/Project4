@@ -1,0 +1,44 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Snake by EP</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+
+</head>
+<body>
+  <header class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper">
+        <ul>
+          <li><a href="/" class="left brand-logo">&nbsp;&nbsp;Snake by EP</a></li>
+        </ul>
+        <ul class="right">
+            {% comment %} <li><a href="/startgame">Start Game</a></li> {% endcomment %}
+            <li><a href="{% url 'startgame' %}">Start Game</a></li>
+            {% comment %} <li><a href="/howto">How To Play</a></li> {% endcomment %}
+            <li><a href="{% url 'howto' %}">How To Play</a></li>
+            {% comment %} <li><a href="{% url 'scores_create' %}">Add Your Score</a></li> {% endcomment %}
+            {% comment %} <li><a href="/scores">View High Scores</a></li> {% endcomment %}
+            <li><a href="{% url 'index' %}">View Scores</a></li>
+            <li><a href="{% url 'score_form' %}">Add a New Score</a></li>
+            {% comment %} <li><a href="/about">About</a></li> {% endcomment %}
+            <li><a href="{% url 'about' %}">About</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main class="container">
+    {% block content %}
+    {% endblock %}
+  </main>
+  <footer class="page-footer">
+    <div class="right">All Rights Reserved, &copy; 2022 Snake by EP &nbsp;</div>
+  </footer>
+</body>
+</html>
