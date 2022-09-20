@@ -1,9 +1,9 @@
 # Python Game (Snake clone created in Python)
-- SEI - Software Engineering Project 3 
+- SEI - Software Engineering Project 4
 - Created By: Eric Pettaway
   
 ### Python
-I am recreating the classic game "Snake" using Python (get it?).  I plan to use python for the backend and HTML for the front end.
+I am recreating the classic game "Snake" using Python (get it?).  Ultimately I would like this to be an educational game that can be used to teach the alphabet, where the 'snake' eats letters in the correct order.  I plan to use python for the backend and HTML for the front end.
 
 ### MVP
 
@@ -27,11 +27,7 @@ I am recreating the classic game "Snake" using Python (get it?).  I plan to use 
 
 ### Front-End
 
-- HTML
-
-- CSS
-
--JavaScript
+- Django
 
 ### Back-End
 
